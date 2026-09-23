@@ -19,9 +19,10 @@ Este repositorio contiene la resolución del trabajo práctico de regresión de 
 
 ```
 TP_AA1_Apellido1_Apellido2_Apellido3/
-├── README.md                # Este archivo
-├── TP-regresion-AA1.ipynb   # Notebook de trabajo con todo el desarrollo
-└── house-prices.csv         # Dataset utilizado
+├── TP_1/
+   ├── README.md                # Este archivo
+   ├── TP-regresion-AA1.ipynb   # Notebook de trabajo con todo el desarrollo
+   └── house-prices.csv         # Dataset utilizado
 ```
 
 ## Contenido del notebook
