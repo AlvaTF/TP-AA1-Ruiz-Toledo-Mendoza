@@ -21,6 +21,7 @@ TP_AA1_Apellido1_Apellido2_Apellido3/
 ├── TP_1/
    ├── README.md                # Este archivo
    ├── TP-regresion-AA1.ipynb   # Notebook de trabajo con todo el desarrollo
+   ├── TrabajoPrácticoRegresiónAA1_2026C2.pdf # Consigna
    └── house-prices.csv         # Dataset utilizado
 ```
 
