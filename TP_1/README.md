@@ -1,7 +1,6 @@
 # Trabajo Práctico de **Aprendizaje Automático 1**: 
 ## *Predicción de precios de casas*
 ### Tecnicatura Universitaria en Inteligencia Artificial – FCEIA, Universidad Nacional de Rosario
-#### Segundo cuatrimestre 2026
 
 ## Integrantes
 
@@ -27,13 +26,29 @@ TP_AA1_Apellido1_Apellido2_Apellido3/
 
 ## Contenido del notebook
 
-1. **Análisis descriptivo**: características y rango de cada variable, tratamiento de datos faltantes, visualizaciones (histogramas, scatterplots, boxplots), matriz de correlación, división train/test y escalado de datos.
+1. **Análisis descriptivo**: 
+   - Exploración inicial del dataset.
+   - Tratamiento de valores faltantes y eliminación de registros sin variable objetivo.
+   - Análisis estadístico descriptivo.
+   - Visualizaciones (histogramas, scatterplots, boxplots y matriz de correlación).
+   - División de los datos en entrenamiento y prueba.
+   - Escalado de variables mediante un pipeline de preprocesamiento.
 2. **Regresión lineal múltiple**:
    - `LinearRegression`
-   - Gradiente descendente, con gráficas de error vs. iteraciones
-   - Regularización: Lasso, Ridge y Elastic Net
-   - Métricas de evaluación en entrenamiento y prueba, y análisis del ajuste (fitting)
-3. **Optimización de hiperparámetros** *(en progreso)*: variación de hiperparámetros de gradiente descendente, Lasso y Ridge.
+   - Implementación de Batch Gradient Descent, Stochastic Gradient Descent y Mini-Batch Gradient Descent.
+   - Regularización mediante Ridge, Lasso y Elastic Net.
+   - Evaluación de los modelos utilizando RMSE y R² en entrenamiento y prueba.
+   - Comparación del desempeño de los distintos modelos.
+
+3. **Optimización de hiperparámetros**:
+   - Variación de hiperparámetros para los algoritmos de Gradient Descent.
+   - Optimización de Ridge, Lasso y Elastic Net mediante `GridSearchCV`.
+   - Comparación de los mejores hiperparámetros y su impacto en el rendimiento de los modelos.
+  
+4. **Conclusiones**:
+   - Comparación final de todos los modelos implementados.
+   - Análisis de los resultados obtenidos y conclusiones del trabajo.
+
 
 ## Estado del trabajo
 
@@ -41,9 +56,9 @@ TP_AA1_Apellido1_Apellido2_Apellido3/
 |---|---|
 | 3. Análisis descriptivo | *Completa* |
 | 4. Regresión lineal múltiple | *Completa* |
-| 5. Optimización de hiperparámetros | 🟡 Incompleta |
-| 6. Comparación de modelos | Pendiente |
-| 7. Conclusión | Pendiente |
+| 5. Optimización de hiperparámetros | *Completa*|
+| 6. Comparación de modelos | *Completa* |
+| 7. Conclusión | *Completa* |
 
 ## Cómo ejecutar
 
@@ -56,3 +71,17 @@ TP_AA1_Apellido1_Apellido2_Apellido3/
    pip install numpy pandas matplotlib seaborn scikit-learn jupyter
    ```
 3. Abrir `TP-regresion-AA1.ipynb` con Jupyter o Google Colab y ejecutar las celdas en orden.
+
+## Herramientas utilizadas
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+## Observaciones
+
+Este trabajo fue desarrollado como parte de la materia Aprendizaje Automático 1 de la Tecnicatura Universitaria en Inteligencia Artificial (FCEIA – UNR) durante el segundo cuatrimestre de 2026.
