@@ -17,7 +17,7 @@ Este repositorio contiene la resolución del trabajo práctico de regresión de 
 ## Estructura del repositorio
 
 ```
-TP_AA1_Apellido1_Apellido2_Apellido3/
+TP-AA1-Ruiz-Toledo-Mendoza/
 ├── TP_1/
    ├── README.md                # Este archivo
    ├── TP-regresion-AA1.ipynb   # Notebook de trabajo con todo el desarrollo
@@ -65,7 +65,7 @@ TP_AA1_Apellido1_Apellido2_Apellido3/
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/<usuario>/TP_AA1_Apellido1_Apellido2_Apellido3.git
+   git clone https://github.com/<usuario>/TP-AA1-Ruiz-Toledo-Mendoza.git
    ```
 2. Instalar las dependencias:
    ```bash
