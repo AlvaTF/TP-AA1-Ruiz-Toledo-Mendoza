@@ -2,3 +2,9 @@
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
+.venv-pycaret/
+data_pycaret_train.csv
+data_pycaret_test.csv
+.venv-pycaret/
+data_pycaret_*.csv
+logs.log
