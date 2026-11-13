@@ -50,13 +50,25 @@ TP-AA1-Ruiz-Toledo-Mendoza/
    - Análisis del desempeño respecto de una estrategia basada en la clase mayoritaria.
 
 4. **Optimización de hiperparámetros**
-   - *Pendiente.*
+   - Definición del espacio de búsqueda de hiperparámetros de la regresión logística (`C`, `penalty`, `solver`, `class_weight`).
+   - Búsqueda mediante [Optuna / GridSearchCV / RandomizedSearchCV] con validación cruzada estratificada.
+   - Métrica objetivo utilizada: [F1-score / ROC AUC / Balanced Accuracy], justificada por el desbalance de clases.
+   - Evaluación del modelo optimizado sobre el conjunto de prueba y comparación con la regresión logística inicial y con el modelo base.
+   - Análisis del impacto de la optimización sobre las métricas y la matriz de confusión.
 
 5. **Explicabilidad**
-   - *Pendiente.*
+   - Análisis de los coeficientes de la regresión logística (signo y magnitud) para identificar las variables más influyentes.
+   - Importancia de variables mediante [SHAP / permutation importance].
+   - Explicaciones globales (variables que más pesan en el modelo) y locales (explicación de predicciones individuales) mediante [SHAP / LIME].
+   - Interpretación de los resultados desde el punto de vista meteorológico (por ejemplo, rol de `Humidity3pm`, `Pressure3pm`, `Sunshine`, `Rainfall`).
+
 
 6. **AutoML**
-   - *Pendiente.*
+   - Aplicación de [FLAML / TPOT / PyCaret / auto-sklearn] para la búsqueda automática de modelos y preprocesamiento.
+   - Configuración utilizada: métrica objetivo, tiempo máximo de búsqueda y estrategia de validación.
+   - Identificación del mejor modelo encontrado y sus hiperparámetros.
+   - Evaluación sobre el conjunto de prueba con las mismas métricas que los modelos anteriores.
+   - Comparación con la regresión logística optimizada: ventajas, desventajas, costo computacional e interpretabilidad.
 
 7. **Red neuronal**
    - *Pendiente.*
